@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
 with open('rf_pipeline.pkl', 'rb') as file:
-    model = pickle.load(file)
+    model = joblib.load(file)
 
 st.title("Loan Predictor App")
 
@@ -38,4 +38,3 @@ if st.button("Predict"):
         st.success("Loan is Approved")
 
 
-#1,00,00,000
