@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-with open('rf_pipeline.pkl', 'rb') as file:
-    model = joblib.load(file)
+model = joblib.load("rf_pipeline.pkl")
 
 st.title("Loan Predictor App")
 
