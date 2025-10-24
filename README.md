@@ -2,6 +2,8 @@
 
 A Machine Learning-based web application built with Streamlit that predicts whether a loan application will be approved or not based on applicant details such as income, employment status, CIBIL score, and other financial indicators.
 
+## Live Demo: [Click here to try the app](https://loan-prediction-upanyach.streamlit.app/)
+
 ## 📘 Overview
 
 The Loan Prediction App uses a trained Random Forest model to classify loan applications as Approved or Rejected.  
